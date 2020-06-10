@@ -5,6 +5,14 @@
   color: gray;
   border: 2px solid black;
   padding: 24px;
+  color: black;
+  font-weight: bold;
+}
+
+.infoCardContainer {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .infoCardCallActionContainer :global(.vtex-button) {
@@ -12,23 +20,17 @@
   background-color: gray;
   border: transparent;
 }
+
 .infoCardCallActionContainer :global(.vtex-button):hover {
   color: gray;
   background-color: white;
   border: transparent;
 }
+
 .infoCardContainer--vintage {
   background-color: #ecdfd1;
 }
+
 .infoCardContainer--metal {
   background-color: #e1e1e1;
-}
-.infoCardContainer {
-  max-width: 1260px;
-  margin: 0 auto;
-  padding: 0;
-}
-.infoCardHeadline {
-  color: black;
-  font-weight: bold;
 }
